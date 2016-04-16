@@ -125,7 +125,6 @@ void monitor()
 
 int main (void)
 {
-
     for (auto device : enumerate()) {
         cout << "Device Node Path: " << device << endl;
     }
